@@ -8,9 +8,9 @@ rm -rf test
 mkdir test
 cd test
 
-gclone nimterop/nimterop
+gclone jyapayne/nimterop
 cd nimterop
-gco libversion
+gco dont_call_bash
 nimble develop -y
 nimble buildTimeit
 nimble bt
